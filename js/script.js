@@ -18,10 +18,9 @@ if (contador) {
     "A pamonha tá no fogo!",
     "Segura o código, cabra!",
     "Chama na quadrilha digital!",
-    'Segura o código, cumpadi! Tá chegando!',
-    'Oxente, prepara o chapéu que falta pouco!',
-    'Num vai bugar não! O arraiá tá quase aí!',
-    'Já separou a paçoca digital?',
+    "Oxente, prepara o chapéu que falta pouco!",
+    "Num vai bugar não! O arraiá tá quase aí!",
+    "Já separou a paçoca digital?",
     "Falta pouco pra festança!"
   ];
 
