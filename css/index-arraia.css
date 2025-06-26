@@ -61,15 +61,17 @@ footer {
 
 /* Backgrounds do Body */
 body.index {
-  background-image: url("../img/chita.png");
+  background-image: url("../img/chita-bg.png");
   background-size: cover;
   background-repeat: repeat;
 }
 body.atracoes {
-  background-color: #fff3e0;
+  background-image: url("../img/chita-bg.png");
+  background-size: cover;
+  background-repeat: repeat;
 }
 body.formulario {
-  background-image: url("../img/fundo-chita-digital.jpg");
+  background-image: url("../img/chita-bg.png");
   background-size: cover;
   background-repeat: repeat;
 }
@@ -129,7 +131,7 @@ body.formulario {
   font-family: inherit;
   text-align: center;
   font-size: 13px;
-  box-shadow: 0px 14px 56px -11px #490e7d;
+  box-shadow: 0px 14px 16px -11px #FFC637;
   width: 10em;
   padding: 1em;
   transition: all 0.4s;
@@ -164,9 +166,9 @@ body.formulario {
 /* checkbox*/
 
 .neon-checkbox {
-  --primary: #732cac;
-  --primary-dark: #460c7b;
-  --primary-light: #bc8de2;
+  --primary: #F6892E;
+  --primary-dark: #DB6E1D;
+  --primary-light: #FFC637;
   --size: 30px;
   position: relative;
   width: var(--size);
