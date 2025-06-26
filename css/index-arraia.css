@@ -632,3 +632,93 @@ body.formulario {
     letter-spacing: 0em;
   }
 }
+
+/* Estilos para o rating de corações */
+.rating {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.rating::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.rating > label {
+  margin-right: 4px;
+}
+
+.rating:not(:checked) > input {
+  display: none;
+}
+
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+.rating:not(:checked) > label > svg {
+  fill: #666;
+  transition:
+    fill 0.3s ease,
+    transform 0.3s ease;
+}
+
+.rating > input:checked ~ label > svg {
+  fill: #ff0000;
+  transform: scale(1.1);
+}
+
+.rating:not(:checked) > label:hover ~ label > svg,
+.rating:not(:checked) > label:hover > svg {
+  fill: #ff1a1a;
+  transform: scale(1.05);
+}
+
+#heart1:checked ~ label > svg {
+  fill: #ff0000;
+}
+
+#heart2:checked ~ label > svg {
+  fill: #ff4d00;
+}
+
+#heart3:checked ~ label > svg {
+  fill: #ff9900;
+}
+
+#heart4:checked ~ label > svg {
+  fill: #ccff00;
+}
+
+#heart5:checked ~ label > svg {
+  fill: #66ff00;
+}
+
+#heart1:hover ~ label > svg,
+#heart1:hover > svg {
+  fill: #e60000 !important;
+}
+
+#heart2:hover ~ label > svg,
+#heart2:hover > svg {
+  fill: #e66a00 !important;
+}
+
+#heart3:hover ~ label > svg,
+#heart3:hover > svg {
+  fill: #e6b600 !important;
+}
+
+#heart4:hover ~ label > svg,
+#heart4:hover > svg {
+  fill: #a6e600 !important;
+}
+
+#heart5:hover ~ label > svg,
+#heart5:hover > svg {
+  fill: #00e600 !important;
+}
