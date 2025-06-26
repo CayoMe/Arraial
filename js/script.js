@@ -12,16 +12,15 @@ if (contador) {
 
   const tempoContador = document.getElementById('tempo-contador');
   const fraseLoader = document.getElementById('frase-loader');
-  const dataEvento = new Date("2025-06-28T18:00:00").getTime();
+  const dataEvento = new Date("2025-07-05T18:00:00").getTime();
   const mensagens = [
     "Vish, tá quase, cumpadi!",
     "A pamonha tá no fogo!",
     "Segura o código, cabra!",
     "Chama na quadrilha digital!",
-    'Segura o código, cumpadi! Tá chegando!',
-    'Oxente, prepara o chapéu que falta pouco!',
-    'Num vai bugar não! O arraiá tá quase aí!',
-    'Já separou a paçoca digital?',
+    "Oxente, prepara o chapéu que falta pouco!",
+    "Num vai bugar não! O arraiá tá quase aí!",
+    "Já separou a paçoca digital?",
     "Falta pouco pra festança!"
   ];
 
