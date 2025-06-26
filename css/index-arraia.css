@@ -722,3 +722,64 @@ body.formulario {
 #heart5:hover > svg {
   fill: #00e600 !important;
 }
+
+/* header pros celulares */
+header .container {
+  flex-wrap: wrap;
+}
+header .d-flex.align-items-center {
+  min-width: 0;
+}
+header img[alt="Logo Arraiá Digital do Cerrado"] {
+  height: 120px;
+  width: 120px;
+  min-width: 80px;
+  max-width: 30vw;
+  position: static;
+  transform: none;
+  margin-right: 1rem;
+  object-fit: contain;
+  z-index: 1;
+}
+header span[style*="font-size: 2rem"] {
+  margin-left: 0;
+  font-size: 1.5rem;
+  z-index: 2;
+  word-break: break-word;
+}
+@media (max-width: 768px) {
+  header .container {
+    flex-direction: column;
+    align-items: flex-start !important;
+    gap: 1rem;
+  }
+  header .d-flex.align-items-center {
+    flex-direction: row;
+    width: 100%;
+    justify-content: flex-start;
+    height: auto !important;
+  }
+  header img[alt="Logo Arraiá Digital do Cerrado"] {
+    height: 70px;
+    width: 70px;
+    max-width: 20vw;
+    margin-bottom: 0;
+  }
+  header span[style*="font-size: 2rem"] {
+    font-size: 1.1rem;
+    margin-left: 0.5rem;
+  }
+  header nav {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  header nav a {
+    width: 100%;
+    text-align: left;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
