@@ -58,7 +58,8 @@ if (form) {
     const nome = document.getElementById('nome').value.trim();
     const email = document.getElementById('email').value.trim();
     
-    const animacao = document.getElementById('animacao').value.trim();
+    const animacaoRadio = form.querySelector('input[name="animacao"]:checked');
+    const animacao = animacaoRadio ? animacaoRadio.value : '';
     const prenda = prendaInput.value.trim();
 
     const disponibilidades = Array.from(form.querySelectorAll('input[type="checkbox"]'));
